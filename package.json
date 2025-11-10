@@ -1,12 +1,20 @@
 {
 	"name": "companion-module-datavideo-hdr80-90-dvip",
-	"version": "0.0.1",
+	"version": "1.0.1",
 	"description": "Control Datavideo HDR-80 and HDR-90 recorders via their DVIP interface.",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"type": "module",
 	"scripts": {
+		"build": "companion-module-build",
+		"dev": "companion-module-build --watch",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"files": [
+		"dist",
+		"companion",
+		"LICENSE",
+		"README.md"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rlights/companion-module-datavideo-hdr80-90-dvip.git"
@@ -33,5 +41,15 @@
 		"DVIP",
 		"HDR",
 		"Recorder"
-	]
+	],
+	"companion": {
+		"name": "datavideo-hdr80-90-dvip",
+		"shortname": "datavideo-hdr",
+		"manufacturer": "Datavideo",
+		"products": [
+			"HDR-80",
+			"HDR-90"
+		],
+		"api-version": "1.0.0"
+	}
 }
