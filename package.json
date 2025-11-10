@@ -1,6 +1,7 @@
 {
-	"name": "generic-tcp-udp",
-	"version": "2.2.0",
+	"name": "companion-module-datavideo-hdr80-90-dvip",
+	"version": "0.0.1",
+	"description": "Control Datavideo HDR-80 and HDR-90 recorders via their DVIP interface.",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
@@ -8,13 +9,29 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-generic-tcp-udp.git"
+		"url": "git+https://github.com/rlights/companion-module-datavideo-hdr80-90-dvip.git"
 	},
+	"bugs": {
+		"url": "https://github.com/rlights/companion-module-datavideo-hdr80-90-dvip/issues"
+	},
+	"author": "rlights <rowan@rowanlee.net>",
+	"maintainers": [
+		{
+			"name": "rlights",
+			"email": "rowan@rowanlee.net"
+		}
+	],
 	"license": "MIT",
 	"dependencies": {
 		"@companion-module/base": "^1.8.0"
 	},
 	"devDependencies": {
 		"@companion-module/tools": "^1.5.0"
-	}
+	},
+	"keywords": [
+		"Datavideo",
+		"DVIP",
+		"HDR",
+		"Recorder"
+	]
 }
