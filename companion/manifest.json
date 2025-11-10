@@ -1,28 +1,16 @@
 {
-	"id": "generic-tcp-udp",
-	"name": "generic-tcp-udp",
-	"shortname": "tcp-udp",
-	"description": "Generic TCP and UDP",
-	"version": "0.0.0",
+	"id": "datavideo-hdr80-90-dvip",
+	"name": "datavideo-hdr80-90-dvip",
+	"shortname": "datavideo-hdr",
+	"description": "Datavideo HDR-80 and HDR-90 Recorders",
+	"version": "0.0.1",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-generic-tcp-udp.git",
-	"bugs": "https://github.com/bitfocus/companion-module-generic-tcp-udp/issues",
+	"repository": "git+https://github.com/rlights/companion-module-datavideo-hdr80-90-dvip.git",
+	"bugs": "https://github.com/rlights/companion-module-datavideo-hdr80-90-dvip/issues",
 	"maintainers": [
 		{
-			"name": "Andreas H. Thomsen",
-			"email": "mc-hauge@hotmail.com"
-		},
-		{
-			"name": "Andrew Broughton",
-			"email": "andy@checkcheckonetwo.com"
-		},
-		{
-			"name": "John A Knight Jr",
-			"email": "istnv@ayesti.com"
-		},
-		{
-			"name": "Joseph Adams",
-			"email": "josephdadams@gmail.com"
+			"name": "rlights",
+			"email": "rowan@rowanlee.net"
 		}
 	],
 	"legacyIds": [],
@@ -32,7 +20,7 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../index.js"
 	},
-	"manufacturer": "Generic",
-	"products": ["TCP and UDP Requests"],
-	"keywords": ["Protocol", "Generic"]
+	"manufacturer": "Datavideo",
+	"products": ["HDR-80","HDR-90"],
+	"keywords": ["DVIP", "HDR", "Recorder"]
 }
