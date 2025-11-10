@@ -1,8 +1,8 @@
 {
 	"id": "datavideo-hdr80-90-dvip",
-	"name": "datavideo-hdr80-90-dvip",
+	"name": "datavideo-hdr80-90-control",
 	"shortname": "datavideo-hdr",
-	"description": "Datavideo HDR-80 and HDR-90 Recorders",
+	"description": "Control Datavideo HDR-80 and HDR-90 recorders via their DVIP interface.",
 	"version": "0.0.1",
 	"license": "MIT",
 	"repository": "git+https://github.com/rlights/companion-module-datavideo-hdr80-90-dvip.git",
@@ -17,7 +17,7 @@
 	"runtime": {
 		"type": "node18",
 		"api": "nodejs-ipc",
-		"apiVersion": "0.0.0",
+		"apiVersion": "1.0.0",
 		"entrypoint": "../index.js"
 	},
 	"manufacturer": "Datavideo",
